@@ -48,3 +48,7 @@ var aa2 = [[1,12],[2,6],[8,10],[15,18]]
 print(aa2)
 print(solution(aa2))
 
+
+/*
+ P/S: My solution is not sorted the input, which is not garunteed to be sorted. The merge function is quite similar to ChatGPT Solution, but I made it more complecated. When create new result array and add the only first value, I should initialize it with the first item directly.
+ */
