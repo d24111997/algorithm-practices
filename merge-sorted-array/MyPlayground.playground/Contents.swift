@@ -55,4 +55,8 @@ print(aa)
 Solution().merge(&aa, 1, [], 0)
 print(aa)
 
-// P/s: 10 mins
+/*
+ P/s: 10 mins
+ The overall time complexity of this solution is O((m+n)log(m+n))
+ This solution is easier to read but it is not the most efficient solution for larger inputs
+*/
